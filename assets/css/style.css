@@ -1,0 +1,121 @@
+  @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-image: url(../m-images/header.png);
+    max-width: 428px;
+    height: 506px;
+    flex-direction: column;
+}
+
+header img {
+    display: flex;
+    width: 428px;
+    flex-wrap: wrap;
+}
+
+footer img {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+}
+
+footer {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+h1 {
+    display: flex;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-size: 32px;
+    line-height: 32px;
+    padding: 0 30px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+h4 {
+    display: flex;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;   
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 0 30px; 
+}
+
+.button1 {
+    display: flex;
+    background-color: #ffffff;
+    width: 381px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.button2 {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h2 {
+    display: flex;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    padding: 0 65px;
+    
+}
+
+h3 {
+    display: flex;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #23272A;
+    padding: 0 30px;
+}
+
+h5 {
+    display: flex;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-size: 32px;
+    line-height: 32px;
+    padding: 0 30px;
+    color: #070606;
+    margin-bottom: 10px;
+}
+
+section img {
+    display: flex;
+    width: 85%;
+    padding: 0 30px;
+    position: center;
+    margin: 20px 0;
+}
